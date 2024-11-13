@@ -18,9 +18,7 @@ export default function Home() {
         <ItemLista>Tener <b>aprobado el módulo de Empresa e Iniciativa Emprendedora de otro ciclo formativo</b>, cualquiera que sea el grado, incluso en grados cruzados -medio o superior-.</ItemLista>
         <ItemLista>Tener <b>aprobado el módulo de Administración, gestión y comercialización en la pequeña empresa</b> (o con una denominación similar).</ItemLista>
         <ItemLista><b>Poseer el Título de Técnico en Gestión administrativa o Técnico superior en Administración y finanzas.</b></ItemLista>
-      </div>
-      
-      <div>
+        
         <table className="w-[100%] lg:w-[80%] self-center border-separate">
           <thead>
             <tr>

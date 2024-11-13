@@ -14,8 +14,7 @@ export default function Home() {
 
       <div className="flex flex-col gap-4">
         <p>La documentación a aportar varía en función del módulo Inglés que se desee convalidar. Siempre deben ser estudios cursados y superados de lengua inglesa.</p>
-      </div>
-      <div>
+
         <table className="w-[100%] lg:w-[80%] self-center border-separate">
           <thead>
             <tr>
@@ -83,6 +82,10 @@ export default function Home() {
             </tr>
           </tbody>
         </table>
+      </div>
+      <div className="flex flex-col gap-4 mt-5 bg-yellow-100 p-10 rounded-3xl shadow-lg shadow-slate-300">
+        <h1 className="text-3xl">Para saber más</h1>
+        <p>Por tanto, no es posible, <span className="font-bold underline bg-yellow-300">EN NINGÚN CASO</span>, convalidar este módulo por haber cursado una asignatura universitaria relativa a este idioma.</p>
       </div>
     </>
   );

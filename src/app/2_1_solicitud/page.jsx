@@ -1,6 +1,7 @@
 import Titulo from "@/components/titulo";
 import Nav from "@/components/nav";
 import ItemLista from "@/components/item-lista";
+import Link from "next/link";
 
 
 export const metadata = {
@@ -19,7 +20,7 @@ export default function Home() {
         </p>
 
         <p>
-          Debes cumplimentar e imprimir el modelo 046 de autoliquidación de tasas de la Junta de Andalucía disponible en el siguiente enlace: Modelo 046. En el apartado OBLIGADO AL PAGO, se deben cumplimentar los datos personales y de domiciliación del solicitante. En el apartado DATOS GENERALES, se debe marcar la casilla AUTOLIQUIDACIÓN. En el cuadro de texto situado debajo se indica el título que se solicita. Se escribirá la fecha en la que se va a realizar y la liquidación. En el código territorial pueden utilizarse los desplegables y seleccionar en código órgano territorial CONSEJERÍA DE EDUCACIÓN Y DEPORTE, en   Código provincia, la provincia donde se localice el centro y en Código centro, seleccionamos el centro donde superé el último módulo. En concepto de pago se indicará el código 0049 o bien se utilizará el desplegable y se seleccionará TASA POR EXPEDICIÓN DE TÍTULOS ACADÉMICOS Y PROFESIONALES.
+          Debes cumplimentar e imprimir el modelo 046 de autoliquidación de tasas de la Junta de Andalucía disponible en el siguiente enlace:<Link className="text-blue-600 underline" href="https://www.juntadeandalucia.es/economiayhacienda/apl/surweb/modelos/modelo046/046.jsp"> Modelo 046</Link>. En el apartado OBLIGADO AL PAGO, se deben cumplimentar los datos personales y de domiciliación del solicitante. En el apartado DATOS GENERALES, se debe marcar la casilla AUTOLIQUIDACIÓN. En el cuadro de texto situado debajo se indica el título que se solicita. Se escribirá la fecha en la que se va a realizar y la liquidación. En el código territorial pueden utilizarse los desplegables y seleccionar en código órgano territorial CONSEJERÍA DE EDUCACIÓN Y DEPORTE, en   Código provincia, la provincia donde se localice el centro y en Código centro, seleccionamos el centro donde superé el último módulo. En concepto de pago se indicará el código 0049 o bien se utilizará el desplegable y se seleccionará TASA POR EXPEDICIÓN DE TÍTULOS ACADÉMICOS Y PROFESIONALES.
 
         </p>
 
@@ -45,11 +46,11 @@ export default function Home() {
         </ItemLista>
 
         <ItemLista>
-        <spa className="font-bold">Impreso de solicitud cumplimentado</spa>. Descargar impreso de solicitud (27155 B)
+          <spa className="font-bold">Impreso de solicitud cumplimentado</spa>. Descargar impreso de solicitud (27155 B)
         </ItemLista>
 
         <ItemLista>
-        <spa className="font-bold">Impreso 046 </spa> (se debe enviar el ejemplar para la administración y también el ejemplar para el interesado, que se devolverá sellado por el centro como resguardo del título).
+          <spa className="font-bold">Impreso 046 </spa> (se debe enviar el ejemplar para la administración y también el ejemplar para el interesado, que se devolverá sellado por el centro como resguardo del título).
         </ItemLista>
 
         <div className="flex flex-col gap-4 bg-blue-200 p-10 rounded-3xl shadow-lg shadow-slate-300">

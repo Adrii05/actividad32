@@ -24,8 +24,7 @@ export default function Home() {
         <ItemLista interior={true}><b>Tener aprobado el módulo de FOL en cualquier otro Ciclo LOE y acreditarlo documentalmente.</b></ItemLista>
         <ItemLista>Si el módulo a convalidar pertenece a un ciclo LOGSE de grado superior (Ley Orgánica 1/1990, de 3 de octubre):</ItemLista>
         <ItemLista interior={true}><b>Tener aprobado el módulo de FOL en un Ciclo LOGSE de Grado Superior (Ley Orgánica 1/1990, de 3 de octubre).</b></ItemLista>
-      </div>
-      <div>
+        
         <table className="w-[100%] lg:w-[80%] self-center border-separate">
           <thead>
             <tr>
