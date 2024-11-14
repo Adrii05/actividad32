@@ -34,15 +34,15 @@ export default function Home() {
           <tbody>
             <tr>
               <th className="border-2 border-blue-200 p-4 text-center bg-blue-200">Elaborado por:</th>
-              <td className="border-2 border-blue-200 p-4">Dirección General de Formación Profesional</td>
+              <td className="border-2 border-blue-200 p-4 hover:bg-blue-200">Dirección General de Formación Profesional</td>
             </tr>
             <tr>
               <th className="border-2 border-blue-200 p-4 text-center bg-blue-200">Versión:</th>
-              <td className="border-2 border-blue-200 p-4">5</td>
+              <td className="border-2 border-blue-200 p-4 hover:bg-blue-200">5</td>
             </tr>
             <tr>
               <th className="border-2 border-blue-200 p-4 text-center bg-blue-200">Fecha de publicación:</th>
-              <td className="border-2 border-blue-200 p-4">3/03/2022</td>
+              <td className="border-2 border-blue-200 p-4 hover:bg-blue-200">3/03/2022</td>
             </tr>
           </tbody>
         </table>
